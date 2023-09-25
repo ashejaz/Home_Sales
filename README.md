@@ -8,7 +8,7 @@ A temporary view for the table was created and the table was then queried using 
 
 The aim of this project was to compare the run-times of the following query on the regular data vs cached data vs partioned parquet data:
 
->_What is the "view" rating (to 2 decimal places) for homes costing more than or equal to $350,000?_
+>_What is the "view" rating for the average price of a home (to 2 decimal places) where the home costs more than or equal to $350,000?_
 
 The query performed on the initial home sales table returned the following output and run-time:
 
